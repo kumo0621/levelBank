@@ -1,0 +1,14 @@
+name: levelBank
+version: '${project.version}'
+main: com.github.kumo0621.levelbank.levelBank
+api-version: 1.19
+commands:
+  up:
+    permission: default
+  down:
+    permission: default
+  bank:
+    permission: default
+permissions:
+  default:
+    default: true
